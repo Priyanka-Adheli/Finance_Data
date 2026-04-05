@@ -27,10 +27,7 @@ Ensure you have the following installed on your local machine:
 
 ## Installation & Setup
 
-1. **Clone the repository** (if applicable) or navigate to the project directory:
-   ```bash
-   cd Finance_Dashboard
-   ```
+1. **Clone the repository**
 
 2. **Install dependencies:**
    ```bash
@@ -41,8 +38,10 @@ Ensure you have the following installed on your local machine:
    Create a `.env` file in the root directory and add the necessary environment variables. The file should look similar to this:
    ```env
    PORT=5000
-   MONGO_URI=your_mongodb_connection_string
-   REDIS_URL=your_redis_connection_string
+   DB_CONNECT=your_mongodb_connection_string
+   REDIS_HOST=your_redis_connection_string
+   REDIS_KEY=your_redis_password
+   REDIS_PORT=your_redis_port
    JWT_SECRET=your_jwt_secret_key
    ```
 
