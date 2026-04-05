@@ -58,6 +58,7 @@ Ensure you have the following installed on your local machine:
 Handles authentication and user management operations. Expect typical endpoints such as:
 - `POST /api/users/register` - Create a new user.
 - `POST /api/users/login` - Authenticate user and return a JWT.
+- `POST /api/users/logout` - Logout user.
 
 ### Finance Routes (`/api/finance`)
 Handles the core financial records logic and data retrieval for the dashboard:
